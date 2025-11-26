@@ -1,0 +1,6 @@
+{
+  "build": {
+    "backend": { "root":"backend","buildCommand":"npm install","startCommand":"npm start" },
+    "frontend": { "root":"frontend","buildCommand":"npm install && npm run build","startCommand":"npm run preview" }
+  }
+}
