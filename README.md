@@ -29,3 +29,53 @@ A production-ready SaaS starter kit built for developers and founders who want t
 ## 🧩 Environment Variables
 You will be prompted to fill the following when deploying:
 
+JWT_SECRET=
+STRIPE_SECRET_KEY=
+DATABASE_URL= (auto provided by Railway)
+FRONTEND_URL=
+
+yaml
+Copy code
+
+---
+
+## 📦 Folder Structure
+backend/
+├─ src/
+├─ controllers/
+├─ routes/
+├─ server.js
+frontend/
+├─ src/
+├─ pages/
+├─ App.jsx
+docker/
+
+yaml
+Copy code
+
+---
+
+## 📘 Quick Start (Local Development)
+
+### Backend
+cd backend
+npm install
+npm run dev
+
+shell
+Copy code
+
+### Frontend
+cd frontend
+npm install
+npm run dev
+
+yaml
+Copy code
+
+---
+
+## 🙌 Credits
+Created by **Saad**    
+Github: https://github.com/testad1728-arch
